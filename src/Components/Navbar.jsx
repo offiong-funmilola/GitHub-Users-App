@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 function Navbar({title}) {
   return (
     <>
-        <nav className="w-screen h-[80px] bg-blue-900 shadow-lg text-content-neutralmb-8">
+        <nav className="w-screen h-[80px] bg-blue-900 shadow-lg text-content-neutral mb-8">
             <div className="container w-[90%] mx-auto bg-inherit flex flex h-full items-center">
                 <div className='flex mr-auto'>
                     <FaGithub className='text-3xl mr-3 text-white'/>
